@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Poppins;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-brand {
+	text-decoration: none;
+	color: #000;
+	transition: 0.3s;
+}
+
+.nav-brand:hover {
+	color: crimson;
+}
+
+.nav-items {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-item {
+	margin-left: 15px;
+	text-decoration: none;
+	color: #000;
+	transition: 0.3s;
+}
+
+.nav-item:hover {
+	color: crimson;
+}
+
+#home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.line1 {
+	width: 0;
+	height: 210px;
+	position: absolute;
+	border-left: 5px solid crimson;
+}
+
+.line2 {
+	width: 0;
+	height: 20px;
+	margin-top: -50px;
+	position: absolute;
+	border-left: 5px solid crimson;
+}
+
+.big-text {
+	margin-left: 30px;
+	font-size: 64px;
+	line-height: 64px;
+}
+
+.thin-text {
+	margin-left: 30px;
+
+	font-weight: 400;
+	font-size: 42px;
+	margin-top: -50px;
+}
+
+.small-text {
+	margin-left: 30px;
+
+	color: darkgray;
+	margin-top: -30px;
+}
+
+button {
+	padding: 16px 32px;
+	border-radius: 32px;
+	border: none;
+	margin-right: 5px;
+}
+
+.btn-menu {
+	margin-left: 30px;
+	background-color: crimson;
+	color: #fff;
+	transition: 0.3s;
+}
+
+.btn-menu:hover {
+	background-color: rgb(184, 17, 51);
+	cursor: pointer;
+}
+
+.btn-book {
+	background-color: whitesmoke;
+	transition: 0.3s;
+}
+
+.btn-book:hover {
+	background-color: rgb(218, 211, 211);
+	cursor: pointer;
+}
+
+#footer {
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dinner {
+	margin-left: 25px;
+}
+
+.dinner-time {
+	margin-top: -20px;
+}
+
+.sci {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sci li {
+	list-style-type: none;
+}
+
+.sci li a {
+	display: inline-block;
+	margin-left: 15px;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #000;
+	border-radius: 50%;
+	transition: 0.2s ease-in-out;
+}
+
+.sci li a:hover {
+	background: crimson;
+	transform: translateY(-10px);
+}
+
+.sci li a img {
+	filter: invert(1);
+	transform: scale(0.5);
+}
