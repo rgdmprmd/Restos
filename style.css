@@ -45,6 +45,10 @@ nav {
 	color: crimson;
 }
 
+.active {
+	color: crimson;
+}
+
 #home {
 	display: flex;
 	justify-content: center;
@@ -162,4 +166,68 @@ button {
 .sci li a img {
 	filter: invert(1);
 	transform: scale(0.5);
+}
+
+#search,
+#card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	width: 100%;
+}
+
+.keyword {
+	margin-top: 20px;
+	width: 100%;
+	padding: 15px;
+	color: #6e707e;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #d1d3e2;
+	border-radius: 20px;
+}
+
+.keyword:focus {
+	color: #6e707e;
+	background-color: #fff;
+	border-color: #bac8f3;
+	outline: 0;
+	-webkit-box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+	box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}
+
+.card-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 30px;
+	row-gap: 80px;
+	margin: 80px AUTO;
+	max-width: 1200px;
+}
+
+.card-body {
+	display: inline-block;
+	border-radius: 20px;
+	background: white;
+	position: relative;
+	text-align: center;
+	padding: 0 20px 30px 20px;
+	transition: 0.3s all ease-in-out;
+	box-shadow: -2px 2px 25px 0px rgba(0, 0, 0, 0.3);
+}
+
+.image-cropper img {
+	width: 80%;
+	height: 80%;
+	margin: -50px auto 0px;
+	border: 2px solid rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.menu-nama {
+	margin: 0px;
 }
